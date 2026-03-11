@@ -11,4 +11,9 @@ public static class StatisticsHelper
         }
         return sum;
     }
+    public static int CalculateCount(int[] values)
+    {
+        return values.Length;
+    }
 }
+
