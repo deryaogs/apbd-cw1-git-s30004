@@ -27,8 +27,8 @@ public static class StatisticsHelper
     }
     public static int CalculateMin(int[] values)
     {
-        // TODO: implementation
-        return 0;
+        if (values.Length == 0) throw new ArgumentException("Array is empty");
+        return values.Min();
     }
 }
 
