@@ -25,5 +25,10 @@ public static class StatisticsHelper
         if (values.Length == 0) throw new ArgumentException("Array is empty");
         return values.Max();
     }
+    public static int CalculateMin(int[] values)
+    {
+        // TODO: implementation
+        return 0;
+    }
 }
 
