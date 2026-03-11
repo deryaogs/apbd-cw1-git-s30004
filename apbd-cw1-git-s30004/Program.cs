@@ -1,6 +1,6 @@
 ﻿using apbd_cw1_git_s30004;
 
-Console.WriteLine("Welcome to Apbd cw1 git-s30004");
+Console.WriteLine("=== Welcome to Statistics Application ===");
 Console.WriteLine("Enter numbers separated by spaces:");
 var input = Console.ReadLine();
 
